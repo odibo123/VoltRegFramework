@@ -1,0 +1,305 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "As a user I want to check  to if a vehicle exists",
+        "description": "",
+        "id": "registration;as-a-user-i-want-to-check--to-if-a-vehicle-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6097642073,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "StepDeFinition.user_is_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180757878,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters his data  in the Reg input box",
+            "match": {
+              "location": "StepDeFinition.user_enters_his_data_in_the_Reg_input_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79539491,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks the Find Vehicle box",
+            "match": {
+              "location": "StepDeFinition.user_clicks_the_Find_Vehicle_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36209005,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result\"}\n  (Session info: chrome\u003d73.0.3683.86)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 33 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027LAPTOP-7AQ443V9\u0027, ip: \u0027192.168.1.24\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51022}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir\u003dC:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir17404_27005}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d73.0.3683.86, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 12c2441527e97248cdf643fb492c795b\n*** Element info: {Using\u003dcss selector, value\u003d.result}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat volkStepDefinition.StepDeFinition.user_should_see_the_start_and_end_result_date_of_his_vehicle_registration(StepDeFinition.java:47)\r\n\tat ✽.Then user should see the start and end result date of his vehicle registration(C:/eclipse/Illumination/Volks.com/src/test/resources/volksLogin.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should see the start and end result date of his vehicle registration",
+            "match": {
+              "location": "StepDeFinition.user_should_see_the_start_and_end_result_date_of_his_vehicle_registration()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "As a user I want to see error message displayed when I enter an invalid data",
+        "description": "",
+        "id": "registration;as-a-user-i-want-to-see-error-message-displayed-when-i-enter-an-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4617965452,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "StepDeFinition.user_is_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130006818,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"OV12UYK\"  in the Reg input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV12UYK",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDeFinition.user_enters_in_the_Reg_input_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102942545,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks the Find Vehicle box",
+            "match": {
+              "location": "StepDeFinition.user_clicks_the_Find_Vehicle_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user should see \"Sorry record not found\" displayed",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user close the Browser",
+            "match": {
+              "location": "StepDeFinition.user_close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "As a user I want to see error message displayed when I enter an invalid data",
+        "description": "",
+        "id": "registration;as-a-user-i-want-to-see-error-message-displayed-when-i-enter-an-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4953236987,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "StepDeFinition.user_is_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129062607,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"OV12UY#\"  in the Reg input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV12UY#",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDeFinition.user_enters_in_the_Reg_input_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88082623,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks the Find Vehicle box",
+            "match": {
+              "location": "StepDeFinition.user_clicks_the_Find_Vehicle_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user should see \"Please enter a valid car registration\" displayed",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user close the Browser",
+            "match": {
+              "location": "StepDeFinition.user_close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "As a user I want to see error message displayed when I enter an invalid data",
+        "description": "",
+        "id": "registration;as-a-user-i-want-to-see-error-message-displayed-when-i-enter-an-invalid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4991618575,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "StepDeFinition.user_is_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95255731,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"\"  in the Reg input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDeFinition.user_enters_in_the_Reg_input_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115849616,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks the Find Vehicle box",
+            "match": {
+              "location": "StepDeFinition.user_clicks_the_Find_Vehicle_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user should see \"Please enter a valid car registration\" displayed",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user close the Browser",
+            "match": {
+              "location": "StepDeFinition.user_close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "C:/eclipse/Illumination/Volks.com/src/test/resources/volksLogin.feature"
+  }
+]
